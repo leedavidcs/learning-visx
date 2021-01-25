@@ -1,0 +1,17 @@
+{
+	"presets": ["@babel/preset-react"],
+	"plugins": [
+		[
+			"module-resolver", {
+				"alias": {
+					"@": "./src"
+				}
+			}
+		]
+	],
+	"env": {
+		"test": {
+			"plugins": ["babel-plugin-dynamic-import-node"]
+		}
+	}
+}
