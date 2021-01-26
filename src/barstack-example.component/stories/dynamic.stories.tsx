@@ -3,7 +3,7 @@ import { ParentSize } from "@visx/responsive";
 import React, { FC } from "react";
 
 export default {
-	title: "barstack/dynamic",
+	title: "bar-stack-example/dynamic",
 	component: BarStackExample
 };
 
